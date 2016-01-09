@@ -132,14 +132,14 @@
               <img src="img/video_frame.png" class="img-responsive" alt="">
               <div class="text-left vid-description vid-description-small">
                 <a href="course_sample.php"><h3>คณิตศาสตร์ ม.1</h3></a>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p>เสริมสร้างการคิด และการวิเคราะห์กับวิชาคณิตศาสตร์ ม.1 โดยพี่จิ๊บ มาสนุกกันนะคะ</p>
               </div>
             </div>
             <div class="col-md-3 preHighSchoolCourse">
               <img src="img/video_frame.png" class="img-responsive" alt="">
               <div class="text-left vid-description vid-description-small">
                 <a href="course_sample.php"><h3>วิทยาศาสตร์ ม.2</h3></a>
-                <p>Lorem ipsum dolor sit amet, consectetur <adip></adip>isicing elit.</p>
+                <p>อยากรักในวิทยาศาสตร์ต้องมาเรียนกับผมพี่อู๋แล้วน้องๆจะสตรอง!!</p>
               </div>
             </div>
 
@@ -147,7 +147,7 @@
               <img src="img/video_frame.png" class="img-responsive" alt="">
               <div class="text-left vid-description vid-description-small">
                 <a href="course_sample.php"><h3>ภาษาไทยพื้นฐาน</h3></a>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p>โฉมใหม่กับการเรียนภาษาไทย ไม่ง่วง ไม่น่าเบื่อ ไม่ต้องเกลียดวิชานี้อีกต่อไป โดยภาษาไทยพื้นฐาน พี่นก</p>
               </div>
             </div>
 
@@ -155,7 +155,7 @@
               <img src="img/video_frame.png" class="img-responsive" alt="">
               <div class="text-left vid-description vid-description-small">
                 <a href="course_sample.php"><h3>คณิตศาสตร์ ม.ปลาย</h3></a>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p>เรียนสนุกลุกนั่งสบายสไตล์พี่โจ วิศวะเครื่องกลจากจุฬาลงกรณ์มหาวิทยาลัย</p>
               </div>
             </div>
           </div>
@@ -165,14 +165,14 @@
               <img src="img/video_frame.png" class="img-responsive" alt="">
               <div class="text-left vid-description vid-description-small">
                 <a href="course_sample.php"><h3>ฟิสิกส์เข้ามหาวิทยาลัย</h3></a>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p>อยากติดจุฬารึเปล่า มาเรียนกับพี่ พี่มีเทคนิคดีๆแชร์เพียบ!! พี่พอล วิศวะจุฬาลงกรณ์มหาวิทยาลัย ดีกรี 4.00!!</p>
               </div>
             </div>
             <div class="col-md-3 highSchoolCourse">
               <img src="img/video_frame.png" class="img-responsive" alt="">
               <div class="text-left vid-description vid-description-small">
-                <a href="course_sample.php"><h3>PAT3 HACK</h3></a>
-                <p>Lorem ipsum dolor sit amet, consectetur <adip></adip>isicing elit.</p>
+                <a href="course_sample.php"><h3>PAT3</h3></a>
+                <p>อยากเข้าวิศวะไม่ยาก แค่รู้ตรงจุด!! พี่นุ๊ก ICT มหิดล และน้องจะรัก PAT3 ตลอดไป</p>
               </div>
             </div>
 
@@ -180,7 +180,7 @@
               <img src="img/video_frame.png" class="img-responsive" alt="">
               <div class="text-left vid-description vid-description-small">
                 <a href="course_sample.php"><h3>ปริมาณสารสัมพันธ์ Part I</h3></a>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p>ปริมาณสารสัมพันธ์ part1 เรื่องง่ายๆที่ใครๆก็ไม่เข้าใจ พี่แนน สนุกแน่นอน</p>
               </div>
             </div>
 
@@ -188,7 +188,7 @@
               <img src="img/video_frame.png" class="img-responsive" alt="">
               <div class="text-left vid-description vid-description-small">
                 <a href="course_sample.php"><h3>ปริมาณสารสัมพันธ์ Part II</h3></a>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p>ต่อเนื่องกับ ปริมาณสารสัมพันธ์ part II ความสนุกยังไม่จบ มาลุยกันต่อเลย</p>
               </div>
             </div>
           </div>
