@@ -38,7 +38,7 @@
           <a class="page-scroll" href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> ติดต่อเรา</a>
         </li>
         <li>
-          <a class="page-scroll" href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> เข้าสู่ระบบ</a>
+          <a class="page-scroll" href="#"  data-toggle="modal" data-target="#loginModal"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> เข้าสู่ระบบ</a>
         </li>
       </ul>
     </div>
@@ -46,3 +46,34 @@
   </div>
   <!-- /.container-fluid -->
 </nav>
+
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="login">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h3 class="modal-title" id="myModalLabel">เข้าสู่ระบบ</h3>
+      </div>
+      <div class="modal-body">
+        <form accept-charset="UTF-8" role="form">
+          <fieldset>
+            <div class="form-group">
+              <input class="form-control" placeholder="E-mail" name="email" type="text">
+            </div>
+            <div class="form-group">
+              <input class="form-control" placeholder="Password" name="password" type="password" value="" id="password">
+            </div>
+            <div class="checkbox">
+              <label>
+                <input name="remember" type="checkbox" value="Remember Me"> จำไว้ในระบบ
+              </label>
+            </div>
+            <input class="btn btn-lg btn-success btn-block" id="login" type="submit" value="Login">
+          </fieldset>
+        </form>
+        <center><h3>หรือ</h3></center>
+        <input class="btn btn-lg btn-facebook btn-block" type="submit" value="Login ผ่าน facebook">
+      </div>
+    </div>
+  </div>
+</div>

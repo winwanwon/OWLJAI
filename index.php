@@ -111,37 +111,29 @@
   <section id="services">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading">At Your Service</h2>
-          <hr class="primary">
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 text-center">
+        <div class="col-sm-4 text-center">
           <div class="service-box">
             <i class="fa fa-4x fa-diamond wow bounceIn text-primary"></i>
-            <h3>Sturdy Templates</h3>
-            <p class="text-muted">Our templates are updated regularly so they don't break.</p>
+            <h3>ลงคอร์สกับเรา</h3>
+            <p class="text-muted">พร้อมรับสิทธิ์พิเศษมากมาย</p>
             <br>
-            <div class="btn btn-primary btn-lg">join us</div>
+            <div class="btn btn-primary btn-lg">รายละเอียดเพิ่มเติม</div>
           </div>
         </div>
-        <div class="col-md-4 text-center">
+        <div class="col-sm-4 text-center">
           <div class="service-box">
             <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s"></i>
-            <h3>Ready to Ship</h3>
-            <p class="text-muted">You can use this theme as is, or you can make changes!</p><br>
-            <div class="btn btn-primary btn-lg">join us</div>
+            <h3>รายการสด</h3>
+            <p class="text-muted">ดูรายการสดและถาม-ตอบคำถามแบบเรียลไทม์</p><br>
+            <div class="btn btn-primary btn-lg">ดูรายการสด</div>
           </div>
         </div>
-        <div class="col-md-4 text-center">
+        <div class="col-sm-4 text-center">
           <div class="service-box">
             <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s"></i>
-            <h3>Up to Date</h3>
-            <p class="text-muted">We update dependencies to keep things fresh.</p><br>
-            <div class="btn btn-primary btn-lg">join us</div>
+            <h3>ติดต่อเรา</h3>
+            <p class="text-muted">ช่องทางการติดต่อ และข้อมูลของเรา</p><br>
+            <div class="btn btn-primary btn-lg">ติดต่อเรา</div>
           </div>
         </div>
       </div>
@@ -152,142 +144,74 @@
   <section class="bg-primary" id="livestream">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 text-left">
-          <div class="live-title">ตารางออกอากาศ</div>
+        <div class="col-sm-5 col-md-offset-1 text-left">
+          <a href="livestream.php"><img src="img/home/004.jpg" class="img-responsive"></a>
         </div>
-        <div class="col-md-6 text-left">
-          <div class="live-title">แนะนำ</div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6 text-center">
-          <img src="img/video_frame.png" class="img-responsive" alt="">
-          <div class="text-left vid-description">
-            <h3>Lorem ipsum</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae quis officiis cupiditate quaerat magnam rerum asperiores saepe nostrum in maxime natus aut provident, rem soluta tenetur voluptatum quasi illo consequuntur?</p>
-          </div>
-        </div>
-        <div class="col-md-6 text-center">
-          <div class="row">
-            <div class="col-md-6">
-              <img src="img/video_frame.png" class="img-responsive" alt="">
-              <div class="text-left vid-description vid-description-small">
-                <h4>Lorem ipsum</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <img src="img/video_frame.png" class="img-responsive" alt="">
-              <div class="text-left vid-description vid-description-small">
-                <h4>Lorem ipsum</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              </div>
-            </div>
-          </div>
-          <br>
-          <div class="row">
-            <div class="col-md-6">
-              <img src="img/video_frame.png" class="img-responsive" alt="">
-              <div class="text-left vid-description vid-description-small">
-                <h4>Lorem ipsum</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <img src="img/video_frame.png" class="img-responsive" alt="">
-              <div class="text-left vid-description vid-description-small">
-                <h4>Lorem ipsum</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              </div>
-            </div>
-          </div>
+        <div class="col-sm-5 text-left">
+          <a href="tutor-profile.php"><img src="img/home/005.jpg" class="img-responsive"></a>
         </div>
       </div>
-    </section>
+
+    </div>
+  </section>
 
     <section id="video_list_prehigh">
       <div class="container">
-        <div class="page-header">
-          <h2>มัธยมต้น</h2>
-        </div>
+          <div class="row">
+            <div class="col-md-12 text-left">
+              <div style="background: #f57102; border-radius: 5px; display:inline-block; font-size: 22px; padding: 10px 30px; color:#FFF;">มัธยมต้น</div>
+            </div>
+          </div>
+          <br>
         <div class="row">
-          <div class="col-md-3 text-center">
-            <div class="service-box subject-box">
-              <h3>Sturdy Templates</h3>
-              <p class="text-muted">Our templates are updated regularly so they don't break.</p>
-            </div>
+          <div class="col-sm-3 text-center">
+            <a href="#"><img src="img/home/007.png" class="img-responsive"></a>
           </div>
-          <div class="col-md-3 text-center">
-            <div class="service-box subject-box">
-              <h3>Sturdy Templates</h3>
-              <p class="text-muted">Our templates are updated regularly so they don't break.</p>
-            </div>
+          <div class="col-sm-3 text-center">
+            <a href="#"><img src="img/home/008.png" class="img-responsive"></a>
           </div>
-          <div class="col-md-3 text-center">
-            <div class="service-box subject-box">
-              <h3>Sturdy Templates</h3>
-              <p class="text-muted">Our templates are updated regularly so they don't break.</p>
-            </div>
+          <div class="col-sm-3 text-center">
+            <a href="#"><img src="img/home/009.png" class="img-responsive"></a>
           </div>
-          <div class="col-md-3 text-center">
-            <div class="service-box subject-box">
-              <h3>Sturdy Templates</h3>
-              <p class="text-muted">Our templates are updated regularly so they don't break.</p>
-            </div>
+          <div class="col-sm-3 text-center">
+            <a href="#"><img src="img/home/010.png" class="img-responsive"></a>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="video_list_high">
+    <section id="video_list_high" style="background: #faf4b6;">
       <div class="container">
-        <div class="page-header">
-          <h2>มัธยมปลาย</h2>
-        </div>
         <div class="row">
-          <div class="col-md-3 text-center">
-            <div class="service-box subject-box">
-              <h3>Sturdy Templates</h3>
-              <p class="text-muted">Our templates are updated regularly so they don't break.</p>
-            </div>
-          </div>
-          <div class="col-md-3 text-center">
-            <div class="service-box subject-box">
-              <h3>Sturdy Templates</h3>
-              <p class="text-muted">Our templates are updated regularly so they don't break.</p>
-            </div>
-          </div>
-          <div class="col-md-3 text-center">
-            <div class="service-box subject-box">
-              <h3>Sturdy Templates</h3>
-              <p class="text-muted">Our templates are updated regularly so they don't break.</p>
-            </div>
-          </div>
-          <div class="col-md-3 text-center">
-            <div class="service-box subject-box">
-              <h3>Sturdy Templates</h3>
-              <p class="text-muted">Our templates are updated regularly so they don't break.</p>
-            </div>
+          <div class="col-md-12 text-left">
+            <div style="background: #f57102; border-radius: 5px; display:inline-block; font-size: 22px; padding: 10px 30px; color:#FFF;">มัธยมปลาย</div>
           </div>
         </div>
+        <br>
         <div class="row">
-          <div class="col-md-3 text-center">
-            <div class="service-box subject-box">
-              <h3>Sturdy Templates</h3>
-              <p class="text-muted">Our templates are updated regularly so they don't break.</p>
-            </div>
+          <div class="col-xs-3 text-center">
+            <a href="#"><img src="img/home/12.jpg" class="img-responsive"></a>
           </div>
-          <div class="col-md-3 text-center">
-            <div class="service-box subject-box">
-              <h3>Sturdy Templates</h3>
-              <p class="text-muted">Our templates are updated regularly so they don't break.</p>
-            </div>
+          <div class="col-xs-3 text-center">
+            <a href="#"><img src="img/home/13.jpg" class="img-responsive"></a>
           </div>
-          <div class="col-md-3 text-center">
-            <div class="service-box subject-box">
-              <h3>Sturdy Templates</h3>
-              <p class="text-muted">Our templates are updated regularly so they don't break.</p>
-            </div>
+          <div class="col-xs-3 text-center">
+            <a href="#"><img src="img/home/14.jpg" class="img-responsive"></a>
+          </div>
+          <div class="col-xs-3 text-center">
+            <a href="#"><img src="img/home/15.jpg" class="img-responsive"></a>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-xs-3 text-center">
+            <a href="#"><img src="img/home/16.jpg" class="img-responsive"></a>
+          </div>
+          <div class="col-xs-3 text-center">
+            <a href="#"><img src="img/home/17.jpg" class="img-responsive"></a>
+          </div>
+          <div class="col-xs-3 text-center">
+            <a href="#"><img src="img/home/18.jpg" class="img-responsive"></a>
           </div>
         </div>
       </div>
@@ -295,59 +219,9 @@
 
     <section id="articles">
       <div class="container">
-        <div class="page-header">
-          <h2>Articles</h2>
-        </div>
         <div class="row">
-          <div class="col-md-3">
-            <div class="service-box subject-box">
-              <h3>Test Article</h3>
-              <p class="text-muted">Test Content.</p>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="service-box subject-box">
-              <h3>Test Article</h3>
-              <p class="text-muted">Test Content.</p>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="service-box subject-box">
-              <h3>Test Article</h3>
-              <p class="text-muted">Test Content.</p>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="service-box subject-box">
-              <h3>Test Article</h3>
-              <p class="text-muted">Test Content.</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-3">
-            <div class="service-box subject-box">
-              <h3>Test Article</h3>
-              <p class="text-muted">Test Content.</p>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="service-box subject-box">
-              <h3>Test Article</h3>
-              <p class="text-muted">Test Content.</p>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="service-box subject-box">
-              <h3>Test Article</h3>
-              <p class="text-muted">Test Content.</p>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="service-box subject-box">
-              <h3>Test Article</h3>
-              <p class="text-muted">Test Content.</p>
-            </div>
+          <div class="col-sm-12">
+            <img src="img/home/21.png" class="img-responsive" alt="">
           </div>
         </div>
       </div>
