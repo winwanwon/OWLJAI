@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand page-scroll" href="index.php"><img src="img/logoooooo-02.png" height="80" style="margin-top: -25px;" alt="OWLJAI"></a>
+      <a class="navbar-brand page-scroll" href="index.php"><img src="img/1.png" height="80" style="margin-top: -25px;" alt="OWLJAI"></a>
     </div>
 
     <form class="navbar-form navbar-left" role="search" style="margin-top: 13px;">
@@ -23,19 +23,22 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li>
-          <a class="page-scroll" href="index.php">หน้าแรก</a>
+          <a class="page-scroll" href="index.php"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> หน้าแรก</a>
         </li>
         <li>
-          <a class="page-scroll" href="#">คอร์ส</a>
+          <a class="page-scroll" href="#"><span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span> คอร์ส</a>
         </li>
         <li>
-          <a class="page-scroll" href="askboard.php">ถาม-ตอบ</a>
+          <a class="page-scroll" href="askboard.php"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span> ถาม-ตอบ</a>
         </li>
         <li>
-          <a class="page-scroll" href="#">รายการสด</a>
+          <a class="page-scroll" href="#"><span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span> รายการสด</a>
         </li>
         <li>
-          <a class="page-scroll" href="#">ติดต่อเรา</a>
+          <a class="page-scroll" href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> ติดต่อเรา</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> เข้าสู่ระบบ</a>
         </li>
       </ul>
     </div>

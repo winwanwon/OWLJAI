@@ -45,7 +45,7 @@
 
   <?php include("nav-bar.php") ?>
 
-  <header>
+  <header style="background: #E64A19;">
     <div class="container">
       <div style="margin: 60px auto; padding-top: 30px;"  class="text-left"><h1>ถาม-ตอบ</h1></div>
     </div>

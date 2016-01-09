@@ -52,7 +52,7 @@
 
   <?php include("nav-bar.php") ?>
 
-  <header>
+  <header style="background: #E64A19;">
     <div class="container">
       <div style="margin: 60px auto; padding-top: 30px;" class="text-left"><h1>ถาม-ตอบ</h1></div>
     </div>
@@ -82,7 +82,9 @@
               </div>
               <div class="panel-body">
                 <div class="row">
-                  <div class="col-md-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos est repudiandae harum, obcaecati quos architecto quis! Animi vitae adipisci, sint odio tempore iste, quod eveniet, illum nam veniam unde ad.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores eum accusamus quisquam, quidem mollitia earum dolor ipsam quos, cum accusantium velit debitis eius dolores similique dignissimos odit cumque aliquid omnis.</div>
+                  <div class="col-md-10"><p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos est repudiandae harum, obcaecati quos architecto quis! Animi vitae adipisci, sint odio tempore iste, quod eveniet, illum nam veniam unde ad.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores eum accusamus quisquam, quidem mollitia earum dolor ipsam quos, cum accusantium velit debitis eius dolores similique dignissimos odit cumque aliquid omnis.</div>
+                  </p>
                   <div class="col-md-2 text-center">
                     <h1 id="vote_count_1">69</h1>
                     <button id="add_1" class="btn btn-success"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
@@ -108,8 +110,9 @@
             <div class="panel panel-default text-left">
               <div class="panel-body">
                 <div class="row">
-                  <div class="col-md-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores eum accusamus quisquam, quidem mollitia earum dolor ipsam quos, cum accusantium velit debitis eius dolores similique dignissimos odit cumque aliquid omnis.</div>
-                  <div class="col-md-2 text-center">
+                  <div class="col-md-10"><p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores eum accusamus quisquam, quidem mollitia earum dolor ipsam quos, cum accusantium velit debitis eius dolores similique dignissimos odit cumque aliquid omnis.</div>
+                  </p><div class="col-md-2 text-center">
                     <h1 id="vote_count_2">0</h1>
                     <button id="add_2" class="btn btn-success"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
                     <button id="minus_2" class="btn btn-danger"><span class="glyphicon glyphicon-minus" aria-hidden="true"></span></button>

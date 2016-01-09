@@ -45,11 +45,12 @@ h3 {
 h4,
 h5,
 h6 {
-    font-family: 'Kanit','Helvetica Neue', sans-serif;
+    font-family: 'Tahoma', 'Helvetica Neue', sans-serif;
     font-weight:  300;
 }
 
 p {
+    font-family: 'Tahoma', 'Helvetica Neue', sans-serif;
     margin-bottom: 20px;
     font-size: 16px;
     font-weight: 300;
@@ -109,7 +110,7 @@ aside {
 .navbar-default .nav > li>a,
 .navbar-default .nav>li>a:focus {
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     color: #222;
 }
