@@ -60,6 +60,7 @@
               <li class="list-group-item"><span class="badge">ม.ปลาย</span><span class="badge">ฟิสิกส์</span> <a href="#">Porta ac consectetur ac</a> <h6>นี่คือบรรทัดแรกของคำถาม</h6></li>
               <li class="list-group-item math"><span class="badge">ม.ปลาย</span> <span class="badge">คณิตศาสตร์</span> <a href="#">Cras justo odio</a> <h6>นี่คือบรรทัดแรกของคำถาม</h6></li>
               <li class="list-group-item" id="math"><span class="badge">ม.ต้น</span> <span class="badge">คณิตศาสตร์</span>  <a href="#"> Cras justo odio</a> <h6>นี่คือบรรทัดแรกของคำถาม</h6></li>
+              <li class="list-group-item"><span class="badge">ภาษาต่างประเทศ</span>  <a href="#">Morbi leo risus</a> <h6>นี่คือบรรทัดแรกของคำถาม</h6></li>
             </ul>
           </div>
           <div class="col-md-4">
@@ -224,13 +225,23 @@
     <!-- Custom Theme JavaScript -->
     <script src="js/creative.js"></script>
     <script>
-    $(document).ready( function(){
-      $('#mathCheckbox').click(function () {
-        $(".list-group-item").toggle(!this.checked);
-        $(".math").show();
-      });
 
-      $("#description").keydown( function(){
+    function goToByScroll(id){
+      // Remove "link" from the ID
+      id = id.replace("link", "");
+      // Scroll
+      $('html,body').animate({
+        scrollTop: $(id).offset().top},
+        'slow');
+      }
+
+      $(document).ready( function(){
+        $('#mathCheckbox').click(function () {
+          $(".list-group-item").toggle(!this.checked);
+          $(".math").show();
+        });
+
+        $("#description").keydown( function(){
           var title = $("#title").val();
           var description = $("#description").val();
           if(title&&description){
@@ -238,9 +249,9 @@
           } else {
             $("#save").addClass("disabled");
           }
-      })
+        })
 
-      $("#title").keydown( function(){
+        $("#title").keydown( function(){
           var title = $("#title").val();
           var description = $("#description").val();
           if(title&&description){
@@ -248,19 +259,21 @@
           } else {
             $("#save").addClass("disabled");
           }
+        })
+
+        $("#save").click( function(){
+          var title = $("#title").val();
+          var description = $("#description").val();
+          if(title&&description){
+            $(".question-list").append("<li class='list-group-item animated fadeInUp'><span class='badge'>ม.ปลาย</span> <span class='badge'>คณิตศาสตร์</span>  <a href'#'>" + title + "</a> <h6>" + description + "</h6></li>")
+            $("#title").val("");
+            $("#description").val("");
+            $("#askQuestion").modal('hide');
+            goToByScroll("li:last");
+          }
+        });
       })
 
-      $("#save").click( function(){
-        var title = $("#title").val();
-        var description = $("#description").val();
-        if(title&&description){
-          $(".question-list").append("<li class='list-group-item'><span class='badge'>ม.ปลาย</span> <span class='badge'>คณิตศาสตร์</span>  <a href'#'>" + title + "</a> <h6>" + description + "</h6></li>")
-          $("#title").val("");
-          $("#description").val("");
-          $("#askQuestion").modal('hide');
-        }
-      });
-    })
-    </script>
-  </body>
-  </html>
+      </script>
+    </body>
+    </html>
