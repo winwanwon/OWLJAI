@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>OWLJAI: เอาใจนักเรียน ไม่ทิ้งติวเตอร์</title>
+  <title>OWLJAI</title>
 
   <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
@@ -126,26 +126,27 @@
               </div>
             </div>
           </div>
+          <div class="appendrow">
           <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-3 preHighSchoolCourse">
               <img src="img/video_frame.png" class="img-responsive" alt="">
               <div class="text-left vid-description vid-description-small">
-                <h4>คณิตศาสตร์ ม.1</h4>
+                <a href="course_sample.php"><h3>คณิตศาสตร์ ม.1</h3></a>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 preHighSchoolCourse">
               <img src="img/video_frame.png" class="img-responsive" alt="">
               <div class="text-left vid-description vid-description-small">
-                <h4>วิทยาศาสตร์ ม.2</h4>
+                <a href="course_sample.php"><h3>วิทยาศาสตร์ ม.2</h3></a>
                 <p>Lorem ipsum dolor sit amet, consectetur <adip></adip>isicing elit.</p>
               </div>
             </div>
 
-            <div class="col-md-3">
+            <div class="col-md-3 preHighSchoolCourse">
               <img src="img/video_frame.png" class="img-responsive" alt="">
               <div class="text-left vid-description vid-description-small">
-                <h4>ภาษาไทยพื้นฐาน</h4>
+                <a href="course_sample.php"><h3>ภาษาไทยพื้นฐาน</h3></a>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
               </div>
             </div>
@@ -153,49 +154,52 @@
             <div class="col-md-3 highSchoolCourse">
               <img src="img/video_frame.png" class="img-responsive" alt="">
               <div class="text-left vid-description vid-description-small">
-                <h4>คณิตศาสตร์ ม.ปลาย</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              </div>
-            </div>
-          </div>
-          <br>
-          <div class="row appendrow">
-            <div class="col-md-3 highSchoolCourse">
-              <img src="img/video_frame.png" class="img-responsive" alt="">
-              <div class="text-left vid-description vid-description-small">
-                <h4>ฟิสิกส์เข้ามหาวิทยาลัย</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              </div>
-            </div>
-            <div class="col-md-3 highSchoolCourse">
-              <img src="img/video_frame.png" class="img-responsive" alt="">
-              <div class="text-left vid-description vid-description-small">
-                <h4>PAT3 HACK</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur <adip></adip>isicing elit.</p>
-              </div>
-            </div>
-
-            <div class="col-md-3 highSchoolCourse">
-              <img src="img/video_frame.png" class="img-responsive" alt="">
-              <div class="text-left vid-description vid-description-small">
-                <h4>ปริมาณสารสัมพันธ์ Part I</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              </div>
-            </div>
-
-            <div class="col-md-3 highSchoolCourse">
-              <img src="img/video_frame.png" class="img-responsive" alt="">
-              <div class="text-left vid-description vid-description-small">
-                <h4>ปริมาณสารสัมพันธ์ Part II</h4>
+                <a href="course_sample.php"><h3>คณิตศาสตร์ ม.ปลาย</h3></a>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
               </div>
             </div>
           </div>
           <br>
           <div class="row">
-            <div class="col-md-12 text-center">
-              <a id="show_more" href="#">Show more...</a>
+            <div class="col-md-3 highSchoolCourse">
+              <img src="img/video_frame.png" class="img-responsive" alt="">
+              <div class="text-left vid-description vid-description-small">
+                <a href="course_sample.php"><h3>ฟิสิกส์เข้ามหาวิทยาลัย</h3></a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              </div>
             </div>
+            <div class="col-md-3 highSchoolCourse">
+              <img src="img/video_frame.png" class="img-responsive" alt="">
+              <div class="text-left vid-description vid-description-small">
+                <a href="course_sample.php"><h3>PAT3 HACK</h3></a>
+                <p>Lorem ipsum dolor sit amet, consectetur <adip></adip>isicing elit.</p>
+              </div>
+            </div>
+
+            <div class="col-md-3 highSchoolCourse">
+              <img src="img/video_frame.png" class="img-responsive" alt="">
+              <div class="text-left vid-description vid-description-small">
+                <a href="course_sample.php"><h3>ปริมาณสารสัมพันธ์ Part I</h3></a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              </div>
+            </div>
+
+            <div class="col-md-3 highSchoolCourse">
+              <img src="img/video_frame.png" class="img-responsive" alt="">
+              <div class="text-left vid-description vid-description-small">
+                <a href="course_sample.php"><h3>ปริมาณสารสัมพันธ์ Part II</h3></a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              </div>
+            </div>
+          </div>
+          <br>
+        </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <a id="show_more" href="#">Show more...</a>
           </div>
         </div>
       </section>
@@ -215,15 +219,32 @@
       <!-- Custom Theme JavaScript -->
       <script src="js/creative.js"></script>
       <script>
+
+      function goToByScroll(id){
+        // Remove "link" from the ID
+        id = id.replace("link", "");
+        // Scroll
+        $('html,body').animate({
+          scrollTop: $(id).offset().top},
+          'slow');
+        }
+
+
       $(document).ready( function(){
         $('#preHighCheck').click(function () {
           $(".highSchoolCourse").toggle(!this.checked);
         });
 
-        $('#show_more').click(function () {
-          var appender = $(".appendrow:last").HTML();
-          $(".appendrow:last").append(appender);
+        $('#highCheck').click(function () {
+          $(".preHighSchoolCourse").toggle(!this.checked);
         });
+
+        $('#show_more').click(function () {
+          var appender = $(".appendrow:last").html();
+          $(".appendrow:last").append(appender);
+          goToByScroll("#show_more");
+        });
+
       })
       </script>
     </body>

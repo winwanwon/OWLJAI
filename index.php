@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>OWLJAI: เอาใจนักเรียน ไม่ทิ้งติวเตอร์</title>
+  <title>OWLJAI</title>
 
   <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
@@ -60,10 +60,12 @@
   <?php include("nav-bar.php") ?>
 
   <header>
+    <a href="livestream.php">
       <div class="slider">
         <img src="img/SS.jpg"/>
         <img src="img/SS3.jpg"/>
       </div>
+      </a>
   <!-- header>
   <div id="carousel-example" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">

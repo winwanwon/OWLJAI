@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Creative - Start Bootstrap Theme</title>
+      <title>OWLJAIร์</title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
@@ -34,7 +34,7 @@
 
 </head>
 <style type="text/css">
-    
+
 .image-cropper {
     width: 150px;
     height: 150px;
@@ -73,10 +73,10 @@ img {
                         </div></center>
                             <div class="row" style="margin-top: 10px;">
                                    <hr class="light">
-                        <p class="text-faded">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p> 
+                        <p class="text-faded">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
                             </div>
-                        
-                            
+
+
 
                     </div>
 
@@ -84,13 +84,13 @@ img {
             </div>
             <div class="row">
                 <div class="container" style="margin-top: 20px">
-        
+
                     <div class="col-md-8">
                     <ul id="dashboard" class="list-group text-left question-list">
                       <li class="list-group-item"><span class="badge">ถาม</span><a href="#">User : พูมิ</a> <h6>พี่ผมไม่เข้าใใจตรงประโยคที่พี่พูดเมื่อกี้อะครัย</h6> </li>
                       <li class="list-group-item math"><span class="badge">ตอบ</span><a href="/tutor-profile">Tutor : พี่ฮันนี้</a> <h6>ด้เลยค่ะน้องเดี๋์ยวจะจะอธิบายอย่างนี้นะครับว่า ...........................................</h6></li>
                       <br>
-                      
+
                     </ul>
                   </div>
 
@@ -106,18 +106,18 @@ img {
                             <textarea id="inputHelpBlock" class="form-control">  </textarea>
                           <button class="form-control" type="submit" id="submit1">submit</button>
                         <!-- </div> -->
-                        
+
                       </div>
 
                      </div>
                             <div class="row" style="margin-top: 20px; margin-left: 0px;"><div  style="width: 92%; height: 280px; background: #eee;">
-                                <img src="/img/video_frame.png "> 
+                                <img src="/img/video_frame.png ">
                             </div></div>
                     </div>
                 </div>
                 </div>
             </div>
-           
+
     </section>
 
 
@@ -307,7 +307,7 @@ img {
     <script src="js/creative.js"></script>
     <script>
         $("#submit1").click(function(){
-            console.log(document.getElementById("inputHelpBlock")); 
+            console.log(document.getElementById("inputHelpBlock"));
 
             var  temp ='<li class="list-group-item"><span class="badge">ถาม</span><a href="#">User : พูมิ</a> <h6>'+ document.getElementById("inputHelpBlock").value+'</h6> </li>';
             $( "#dashboard" ).append( temp );
