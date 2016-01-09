@@ -71,8 +71,8 @@ img {
                     </div>
                 </div>
                 <div class="col-lg-4 ">
-                    <center><div class="image-cropper ">
-                    <img src="http://www.electricvelocity.com.au/Upload/Blogs/smart-e-bike-side_2.jpg" class="rounded" />
+                    <center><div class="image-cropper">
+                    <img class="wow bounceIn" data-wow-delay="0.1s" src="http://www.electricvelocity.com.au/Upload/Blogs/smart-e-bike-side_2.jpg" class="rounded" />
                     </div></center>
                         <div class="row" style="margin-top: 10px;">
                                <hr class="light">
@@ -84,6 +84,7 @@ img {
                 </div>
 
             </div>
+            <!-- tutor's course -->
             <div class="container" style="margin-top: 2%; padding-left:4px">
 
                 <ul style="margin-left: 0px;" class="discover-courses-list one-line">
