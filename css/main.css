@@ -84,3 +84,7 @@
         padding: 10px 15px;
     }
 }
+
+textarea {
+      font-family: 'Tahoma','Helvetica Neue', sans-serif;
+}
