@@ -78,63 +78,51 @@
 
    <?php include("nav-bar.php") ?>
 
-    <section class="bg-orange" id="about">
+    <section style="background-color:#fcdcbb;" id="about">
         <div class="container">
+        <div class="row">
+             <h2>2.คำศัพท์พื้นฐาน</h2>
+        </div>
             <div class="row">
-                    <div class="col-lg-8 text-center ">
+                    <div class="col-lg-12 text-center ">
                          <div align="center" class="embed-responsive embed-responsive-16by9">
-                            <video  controls class="embed-responsive-item">
-                            <source src=http://techslides.com/demos/sample-videos/small.mp4 type=video/mp4>
+                            <video id="myVideo" controls class="embed-responsive-item">
+                            <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4" >
                             </video>
                         </div>
-                    </div>
-                    <div class="col-lg-4 ">
-                        <center><div class="image-cropper ">
-                        <img class="img-profile" src="http://www.electricvelocity.com.au/Upload/Blogs/smart-e-bike-side_2.jpg" class="rounded" />
-                        </div></center>
-                            <div class="row" style="margin-top: 10px;">
-                                   <hr class="light">
-                        <p class="text-faded">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p> 
+                        <div class="panel panel-default text-left " style="height: 100px;" >
+                              <div class="panel-body">
+                              <h3> สอนคำสัพท์แบบง่ายๆภายใน 30 วินาที  </h3> 
+                               บทคำศัพท์พื้นฐานที่ทุกคนต้องรู้เพื่อนำมาใช้ในชีวอตประจำวัน <br>
+                               </div>
                             </div>
-                        
-                            
-
                     </div>
+                    
 
                 </div>
             </div>
             <div class="row">
+            <center><h2 class="section-heading">คอร์สสอนคำศัพท์พื้นฐาน</h2></center>
+            <hr class="primary">
+            </div>
+            <div class="row">
                 <div class="container" style="margin-top: 20px">
-        
+            <div class="col-lg-2">
+                   
+                </div>
                     <div class="col-md-8">
-                    <ul id="dashboard" class="list-group text-left question-list">
-                      <li class="list-group-item"><span class="badge">ถาม</span><a href="#">User : พูมิ</a> <h6>พี่ผมไม่เข้าใใจตรงประโยคที่พี่พูดเมื่อกี้อะครัย</h6> </li>
-                      <li class="list-group-item math"><span class="badge">ตอบ</span><a href="/tutor-profile">Tutor : พี่ฮันนี้</a> <h6>ด้เลยค่ะน้องเดี๋์ยวจะจะอธิบายอย่างนี้นะครับว่า ...........................................</h6></li>
+                    <center><ul id="dashboard" class="list-group text-left question-list">
+                      <li class="list-group-item"><span class="badge">30:00 นาที </span><a href="#"><h3 class="text-success">1. บทนำภาษาอังกฤษสำหรับเด็กตั้งใจเรียน</h3></a></li>
+                      <li class="list-group-item"><span class="badge">00:30 นาที </span><a href="#"><h3 class="text-danger">2. สอนคำสัพท์แบบง่ายๆภายใน 30 วินาที</h3></a></li>
+                      <li class="list-group-item"><span class="badge">29:34 นาที </span><a href="#"><h3>3. คำศัพท์เพื่อการสื่อสารในชีวิตประจำวัน </h3></a></li>
+                      <li class="list-group-item"><span class="badge">31:01 นาที </span><a href="#"><h3>4. ไปทวนคำศัพท์แบบง่ายๆภายในสไตล์ของฮันนี่</h3></a></li>
                       <br>
                       
-                    </ul>
+                    </ul></center>
                   </div>
 
-                <div class="col-lg-4">
-                    <div class="row">
-                    <div class="panel panel-default text-left">
-                      <div class="panel-heading">
-                        <h3 class="panel-title">ถามคำถามได้เลยครับ ไมjต้องอาย</h3>
-                      </div>
-                      <div class="panel-body">
-                        <!-- <div class="checkbox"> -->
-                          <label for="inputHelpBlock"> </label>
-                            <textarea id="inputHelpBlock" class="form-control">  </textarea>
-                          <button class="form-control" type="submit" id="submit1">submit</button>
-                        <!-- </div> -->
-                        
-                      </div>
-
-                     </div>
-                            <div class="row" style="margin-top: 20px; margin-left: 0px;"><div  style="width: 92%; height: 280px; background: #eee;">
-                                <img class="img-profile" src="/img/video_frame.png "> 
-                            </div></div>
-                    </div>
+                <div class="col-lg-2">
+                   
                 </div>
                 </div>
             </div>
@@ -192,6 +180,47 @@
         });
 
     </script>
+ <!-- <button type="button" class="btn btn-info btn-lg" id="myBtn">Open Modal</button> -->
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title"><center><img src="img/head.jpg" width="98%"></center></h4>
+        </div>
+        <div class="modal-body">
+          <p>1.he has been working here for two year now,______________</p><br>
+
+  <input type="radio" name="gender" value="male"> hasn't he<br>
+  <input type="radio" name="gender" value="female"> has he<br>
+  <input type="radio" name="gender" value="other"> isn't
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+<script>
+$(document).ready(function(){
+    $("#myBtn").click(function(){
+        $("#myModal").modal();
+    });
+});
+</script>
+<script type='text/javascript'>
+    document.getElementById('myVideo').addEventListener('ended',myHandler,false);
+    function myHandler(e) {
+      $("#myModal").modal();
+    }
+</script>
+
 
 </body>
 
