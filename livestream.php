@@ -84,56 +84,40 @@ img {
             </div>
             <div class="row">
                 <div class="container" style="margin-top: 20px">
-                <div class="col-lg-8">
-                    <div id="dashboard" style="width: 100%; height: 500px; background: #727272; padding-left: 5%">
-
-                        <br>
-                        <div style="width: 95%;  background: #b6b6b6; ">"พี่ผมไม่เข้าใใจตรงประโยคที่พี่พูดเมื่อกี้อะครัย"</div>
-                         <div style="width: 95%;  background: #ffcdd2; ">ได้เลยค่ะน้องเดี๋์ยวจะจะอธิบายอย่างนี้นะครับว่า ...........................................</div>
-                        <!-- <blockquote class="quote-box">
-                              
-                              
-                              
-                                Don't believe anything that you read on the internet, it may be fake. 
-                              
-                              <hr  class="light">
-                              <div class="blog-post-actions">
-                                <p class="blog-post-bottom pull-left">
-                                  Abraham Lincoln
-                                </p>
-                                <p class="blog-post-bottom pull-right">
-                                  <span class="badge quote-badge">896</span>  ❤
-                                </p>
-                              </div>
-                            </blockquote> -->
-
-
-
-                     </div>
-
-                    
-                            
-                    
-
-
-                </div>
-
-                
+        
+                    <div class="col-md-8">
+                    <ul id="dashboard" class="list-group text-left question-list">
+                      <li class="list-group-item"><span class="badge">ถาม</span><a href="#">User : พูมิ</a> <h6>พี่ผมไม่เข้าใใจตรงประโยคที่พี่พูดเมื่อกี้อะครัย</h6> </li>
+                      <li class="list-group-item math"><span class="badge">ตอบ</span><a href="/tutor-profile">Tutor : พี่ฮันนี้</a> <h6>ด้เลยค่ะน้องเดี๋์ยวจะจะอธิบายอย่างนี้นะครับว่า ...........................................</h6></li>
+                      <br>
+                      
+                    </ul>
+                  </div>
 
                 <div class="col-lg-4">
                     <div class="row">
-                        <div  style="width: 100%; height: 200px; background: grey;">
-                            <br>
-                            <label for="inputHelpBlock">Input with help text</label>
-                            <textarea type="text" id="inputHelpBlock" class="form-control"></textarea>
-                            <button class="form-control" id="submit1">submit</button>
-                        </div>
+                    <div class="panel panel-default text-left">
+                      <div class="panel-heading">
+                        <h3 class="panel-title">ถามคำถามได้เลยครับ ไมjต้องอาย</h3>
+                      </div>
+                      <div class="panel-body">
+                        <!-- <div class="checkbox"> -->
+                          <label for="inputHelpBlock"> </label>
+                            <textarea id="inputHelpBlock" class="form-control">  </textarea>
+                          <button class="form-control" type="submit" id="submit1">submit</button>
+                        <!-- </div> -->
+                        
+                      </div>
+
+                     </div>
+                            <div class="row" style="margin-top: 20px; margin-left: 0px;"><div  style="width: 92%; height: 280px; background: #eee;">
+                                <img src="/img/video_frame.png "> 
+                            </div></div>
                     </div>
-                    <div class="row" style="margin-top: 20px;"><div  style="width: 100%; height: 280px; background: grey;"></div></div>
+                </div>
                 </div>
             </div>
-
-            <div class="row"></div>
+           
     </section>
 
 
@@ -308,7 +292,7 @@ img {
         </div>
     </section>
 
-    <!-- jQuery -->
+    <!-- jQuery-->
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
@@ -324,17 +308,19 @@ img {
     <script>
         $("#submit1").click(function(){
             console.log(document.getElementById("inputHelpBlock")); 
-            var  temp ='<br><div style="width: 95%;  background: #b6b6b6; ">'+ document.getElementById("inputHelpBlock").value+'</div>';
+
+            var  temp ='<li class="list-group-item"><span class="badge">ถาม</span><a href="#">User : พูมิ</a> <h6>'+ document.getElementById("inputHelpBlock").value+'</h6> </li>';
             $( "#dashboard" ).append( temp );
 
 
             setTimeout(function(){
-                var  temp ='<div style="width: 95%;  background: #ffcdd2; ">'+ "ทำดีค่ะ"+'</div>';
+                var  temp ='<li class="list-group-item math"><span class="badge">ตอบ</span><a href="/tutor-profile">Tutor : พี่ฮันนี้</a> <h6>'+ "ทำดีค่ะ"+'</h6> </li><br>';
                 $( "#dashboard" ).append( temp );
 
 
              },1000);
         });
+
     </script>
 
 </body>
