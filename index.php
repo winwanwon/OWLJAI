@@ -21,6 +21,7 @@
 
   <!-- Plugin CSS -->
   <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+  <link rel="stylesheet" href="css/jquery.tiles.min.css" type="text/css">
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/creative.css" type="text/css">
@@ -40,45 +41,52 @@
   <?php include("nav-bar.php") ?>
 
   <header>
-    <div id="carousel-example" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-example" data-slide-to="1"></li>
-        <li data-target="#carousel-example" data-slide-to="2"></li>
-      </ol>
+      <div class="slider">
+        <img src="http://placekitten.com/1600/600"/> <!-- No description -->
+        <img src="http://placekitten.com/1200/600"/>
+        <img src="http://placekitten.com/1400/600"/>
+      </div>
+  <!-- header>
+  <div id="carousel-example" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example" data-slide-to="1"></li>
+      <li data-target="#carousel-example" data-slide-to="2"></li>
+    </ol>
 
-      <div class="carousel-inner">
-        <div class="item active">
-          <a href="#"><img src="http://placekitten.com/1600/600" /></a>
-          <div class="carousel-caption">
-            <h3>Meow</h3>
-            <p>Just Kitten Around</p>
-          </div>
+    <div class="carousel-inner">
+      <div class="item active">
+        <a href="#"><img src="http://placekitten.com/1600/600" /></a>
+        <div class="carousel-caption">
+          <h3>Meow</h3>
+          <p>Just Kitten Around</p>
         </div>
-        <div class="item">
-          <a href="#"><img src="http://placekitten.com/1600/600" /></a>
-          <div class="carousel-caption">
-            <h3>Meow</h3>
-            <p>Just Kitten Around</p>
-          </div>
+      </div>
+      <div class="item">
+        <a href="#"><img src="http://placekitten.com/1600/600" /></a>
+        <div class="carousel-caption">
+          <h3>Meow</h3>
+          <p>Just Kitten Around</p>
         </div>
-        <div class="item">
-          <a href="#"><img src="http://placekitten.com/1600/600" /></a>
-          <div class="carousel-caption">
-            <h3>Meow</h3>
-            <p>Just Kitten Around</p>
-          </div>
+      </div>
+      <div class="item">
+        <a href="#"><img src="http://placekitten.com/1600/600" /></a>
+        <div class="carousel-caption">
+          <h3>Meow</h3>
+          <p>Just Kitten Around</p>
         </div>
       </div>
 
-      <a class="left carousel-control" href="#carousel-example" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-      </a>
-      <a class="right carousel-control" href="#carousel-example" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-      </a>
-    </div>
+    <a class="left carousel-control" href="#carousel-example" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
   </div>
+</div>
+</header -->
+
 
   <section id="services">
     <div class="container">
@@ -120,8 +128,15 @@
   <section class="bg-primary" id="livestream">
     <div class="container">
       <div class="row">
+        <div class="col-md-6 text-left">
+          <div class="live-title">ตารางออกอากาศ</div>
+        </div>
+        <div class="col-md-6 text-left">
+          <div class="live-title">แนะนำ</div>
+        </div>
+      </div>
+      <div class="row">
         <div class="col-md-6 text-center">
-          <div class="page-header text-left"><h2>Now On Air</h2></div>
           <img src="img/video_frame.png" class="img-responsive" alt="">
           <div class="text-left vid-description">
             <h3>Lorem ipsum</h3>
@@ -129,20 +144,19 @@
           </div>
         </div>
         <div class="col-md-6 text-center">
-          <div class="page-header text-left"><h2>Previous</h2></div>
           <div class="row">
             <div class="col-md-6">
               <img src="img/video_frame.png" class="img-responsive" alt="">
               <div class="text-left vid-description vid-description-small">
                 <h4>Lorem ipsum</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae quis officiis cupiditate.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
               </div>
             </div>
             <div class="col-md-6">
               <img src="img/video_frame.png" class="img-responsive" alt="">
               <div class="text-left vid-description vid-description-small">
                 <h4>Lorem ipsum</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae quis officiis cupiditate.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
               </div>
             </div>
           </div>
@@ -152,14 +166,14 @@
               <img src="img/video_frame.png" class="img-responsive" alt="">
               <div class="text-left vid-description vid-description-small">
                 <h4>Lorem ipsum</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae quis officiis cupiditate.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
               </div>
             </div>
             <div class="col-md-6">
               <img src="img/video_frame.png" class="img-responsive" alt="">
               <div class="text-left vid-description vid-description-small">
                 <h4>Lorem ipsum</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae quis officiis cupiditate.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
               </div>
             </div>
           </div>
@@ -344,11 +358,16 @@
     <!-- Plugin JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/jquery.fittext.js"></script>
+    <script src="js/jquery.tiles.min.js"></script>
     <script src="js/wow.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script src="js/creative.js"></script>
-
+    <script>
+    $(document).ready( function(){
+        $('.slider').tilesSlider({ effect: 'simple', auto: true, loop: true, slideSpeed: 3000, random: true, nav: false, navWrap: true, x: 10, y:5, timer: false});
+    })
+    </script>
   </body>
 
   </html>
