@@ -61,9 +61,8 @@
 
   <header>
       <div class="slider">
-        <img src="http://placekitten.com/1600/600"/> <!-- No description -->
-        <img src="http://placekitten.com/1200/600"/>
-        <img src="http://placekitten.com/1400/600"/>
+        <img src="img/SS.jpg"/>
+        <img src="img/SS3.jpg"/>
       </div>
   <!-- header>
   <div id="carousel-example" class="carousel slide" data-ride="carousel">
@@ -388,7 +387,7 @@
     <script src="js/creative.js"></script>
     <script>
     $(document).ready( function(){
-        $('.slider').tilesSlider({ effect: 'simple', auto: true, loop: true, slideSpeed: 3000, random: true, nav: false, navWrap: true, x: 10, y:5, timer: false});
+        $('.slider').tilesSlider({ effect: 'simple', auto: true, loop: true, slideSpeed: 5000, random: true, nav: false, navWrap: false, x: 10, y:5, timer: false});
     })
     </script>
   </body>

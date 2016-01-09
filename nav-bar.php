@@ -26,13 +26,13 @@
           <a class="page-scroll" href="index.php"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> หน้าแรก</a>
         </li>
         <li>
-          <a class="page-scroll" href="#"><span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span> คอร์ส</a>
+          <a class="page-scroll" href="courses.php"><span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span> คอร์ส</a>
         </li>
         <li>
           <a class="page-scroll" href="askboard.php"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span> ถาม-ตอบ</a>
         </li>
         <li>
-          <a class="page-scroll" href="#"><span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span> รายการสด</a>
+          <a class="page-scroll" href="livestream.php"><span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span> รายการสด</a>
         </li>
         <li>
           <a class="page-scroll" href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> ติดต่อเรา</a>
