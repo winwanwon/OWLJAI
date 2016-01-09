@@ -55,7 +55,7 @@
 
 </head>
 <style type="text/css">
-    
+
 .image-cropper {
     width: 150px;
     height: 150px;
@@ -71,6 +71,7 @@
     height: 100%;
     width: auto;
 }
+
 </style>
 
 
@@ -78,7 +79,7 @@
 
    <?php include("nav-bar.php") ?>
 
-    <section class="bg-orange" id="about">
+    <section style="background-color:#fcdcbb;" id="about">
         <div class="container">
             <div class="row">
                     <div class="col-lg-8 text-center ">
@@ -94,10 +95,12 @@
                         </div></center>
                             <div class="row" style="margin-top: 10px;">
                                    <hr class="light">
-                        <p class="text-faded">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p> 
+                                   <h2>รายการสด: ฟิสิกส์เบื้องต้น</h2>
+                            <p>โจทย์ฟิสิกส์สำหรับน้องๆ ม.ต้น</p>
+
                             </div>
-                        
-                            
+
+
 
                     </div>
 
@@ -105,13 +108,13 @@
             </div>
             <div class="row">
                 <div class="container" style="margin-top: 20px">
-        
+
                     <div class="col-md-8">
                     <ul id="dashboard" class="list-group text-left question-list">
                       <li class="list-group-item"><span class="badge">ถาม</span><a href="#">User : พูมิ</a> <h6>พี่ผมไม่เข้าใใจตรงประโยคที่พี่พูดเมื่อกี้อะครัย</h6> </li>
                       <li class="list-group-item math"><span class="badge">ตอบ</span><a href="/tutor-profile">Tutor : พี่ฮันนี้</a> <h6>ด้เลยค่ะน้องเดี๋์ยวจะจะอธิบายอย่างนี้นะครับว่า ...........................................</h6></li>
                       <br>
-                      
+
                     </ul>
                   </div>
 
@@ -119,7 +122,7 @@
                     <div class="row">
                     <div class="panel panel-default text-left">
                       <div class="panel-heading">
-                        <h3 class="panel-title">ถามคำถามได้เลยครับ ไมjต้องอาย</h3>
+                        <h3 class="panel-title">ถามคำถามได้เลยครับ ไม่ต้องอาย</h3>
                       </div>
                       <div class="panel-body">
                         <!-- <div class="checkbox"> -->
@@ -127,40 +130,22 @@
                             <textarea id="inputHelpBlock" class="form-control">  </textarea>
                           <button class="form-control" type="submit" id="submit1">submit</button>
                         <!-- </div> -->
-                        
+
                       </div>
 
                      </div>
                             <div class="row" style="margin-top: 20px; margin-left: 0px;"><div  style="width: 92%; height: 280px; background: #eee;">
-                                <img class="img-profile" src="/img/video_frame.png "> 
+                                <img class="img-profile" src="/img/video_frame.png ">
                             </div></div>
                     </div>
                 </div>
                 </div>
             </div>
-           
-    </section>
-    
 
-    <section id="contact" class="bg-dark">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Let's Get In Touch!</h2>
-                    <hr class="primary">
-                    <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
-                </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center">
-                    <i class="fa fa-phone fa-3x wow bounceIn"></i>
-                    <p>123-456-6789</p>
-                </div>
-                <div class="col-lg-4 text-center">
-                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a></p>
-                </div>
-            </div>
-        </div>
     </section>
+
+
+        <?php include("footer.php"); ?>
 
     <!-- jQuery-->
     <script src="js/jquery.js"></script>
@@ -177,7 +162,7 @@
     <script src="js/creative.js"></script>
     <script>
         $("#submit1").click(function(){
-            console.log(document.getElementById("inputHelpBlock")); 
+            console.log(document.getElementById("inputHelpBlock"));
 
             var  temp ='<li class="list-group-item"><span class="badge">ถาม</span><a href="#">User : พูมิ</a> <h6>'+ document.getElementById("inputHelpBlock").value+'</h6> </li>';
             $( "#dashboard" ).append( temp );

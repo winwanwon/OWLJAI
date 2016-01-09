@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>OWLJAI: เอาใจนักเรียน ไม่ทิ้งติวเตอร์</title>
+  <title>OWLJAI</title>
 
   <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
@@ -55,7 +55,7 @@
 
 </head>
 <style type="text/css">
-    
+
 .image-cropper {
     width: 150px;
     height: 150px;
@@ -92,12 +92,12 @@
                         </div>
                         <div class="panel panel-default text-left " style="height: 100px;" >
                               <div class="panel-body">
-                              <h3> สอนคำสัพท์แบบง่ายๆภายใน 30 วินาที  </h3> 
+                              <h3> สอนคำสัพท์แบบง่ายๆภายใน 30 วินาที  </h3>
                                บทคำศัพท์พื้นฐานที่ทุกคนต้องรู้เพื่อนำมาใช้ในชีวอตประจำวัน <br>
                                </div>
                             </div>
                     </div>
-                    
+
 
                 </div>
             </div>
@@ -108,7 +108,7 @@
             <div class="row">
                 <div class="container" style="margin-top: 20px">
             <div class="col-lg-2">
-                   
+
                 </div>
                     <div class="col-md-8">
                     <center><ul id="dashboard" class="list-group text-left question-list">
@@ -117,38 +117,20 @@
                       <li class="list-group-item"><span class="badge">29:34 นาที </span><a href="#"><h3>3. คำศัพท์เพื่อการสื่อสารในชีวิตประจำวัน </h3></a></li>
                       <li class="list-group-item"><span class="badge">31:01 นาที </span><a href="#"><h3>4. ไปทวนคำศัพท์แบบง่ายๆภายในสไตล์ของฮันนี่</h3></a></li>
                       <br>
-                      
+
                     </ul></center>
                   </div>
 
                 <div class="col-lg-2">
-                   
-                </div>
-                </div>
-            </div>
-           
-    </section>
-    
 
-    <section id="contact" class="bg-dark">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Let's Get In Touch!</h2>
-                    <hr class="primary">
-                    <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
                 </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center">
-                    <i class="fa fa-phone fa-3x wow bounceIn"></i>
-                    <p>123-456-6789</p>
-                </div>
-                <div class="col-lg-4 text-center">
-                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a></p>
                 </div>
             </div>
-        </div>
+
     </section>
+
+
+        <?php include("footer.php"); ?>
 
     <!-- jQuery-->
     <script src="js/jquery.js"></script>
@@ -165,7 +147,7 @@
     <script src="js/creative.js"></script>
     <script>
         $("#submit1").click(function(){
-            console.log(document.getElementById("inputHelpBlock")); 
+            console.log(document.getElementById("inputHelpBlock"));
 
             var  temp ='<li class="list-group-item"><span class="badge">ถาม</span><a href="#">User : พูมิ</a> <h6>'+ document.getElementById("inputHelpBlock").value+'</h6> </li>';
             $( "#dashboard" ).append( temp );
@@ -183,7 +165,7 @@
  <!-- <button type="button" class="btn btn-info btn-lg" id="myBtn">Open Modal</button> -->
 <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog">
-    
+
       <!-- Modal content-->
       <div class="modal-content">
         <div class="modal-header">
@@ -202,7 +184,7 @@
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         </div>
       </div>
-      
+
     </div>
   </div>
 
