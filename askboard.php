@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 
   <!-- Custom Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Kanit:400,300,500,600,200&subset=thai,latin' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
@@ -46,7 +47,7 @@
 
   <header>
     <div class="container">
-      <div style="margin: 60px auto; padding-top: 30px;"><h1>ถาม-ตอบ</h1></div>
+      <div style="margin: 60px auto; padding-top: 30px;"  class="text-left"><h1>ถาม-ตอบ</h1></div>
     </div>
 
     <section id="content" style="background: #FFF;">
@@ -265,7 +266,7 @@
           var title = $("#title").val();
           var description = $("#description").val();
           if(title&&description){
-            $(".question-list").append("<li class='math list-group-item animated fadeInUp'><span class='badge'>ม.ปลาย</span> <span class='badge'>คณิตศาสตร์</span>  <a href'#'>" + title + "</a> <h6>" + description + "</h6></li>")
+            $(".question-list").append("<li class='math list-group-item animated fadeInUp'><span class='badge'>ม.ปลาย</span> <span class='badge'>คณิตศาสตร์</span>  <a href='samplequestion.php'>" + title + "</a> <h6>" + description + "</h6></li>")
             $("#title").val("");
             $("#description").val("");
             $("#askQuestion").modal('hide');

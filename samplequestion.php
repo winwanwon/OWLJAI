@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 
   <!-- Custom Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Kanit:400,300,500,600,200&subset=thai,latin' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
@@ -53,7 +54,7 @@
 
   <header>
     <div class="container">
-      <div style="margin: 60px auto; padding-top: 30px;"><h1>ถาม-ตอบ</h1></div>
+      <div style="margin: 60px auto; padding-top: 30px;" class="text-left"><h1>ถาม-ตอบ</h1></div>
     </div>
 
     <section id="content">
@@ -64,6 +65,8 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel tenetur repellendus, eius quis. Amet, error, blanditiis? Incidunt quod iusto optio magni consequatur. Et labore repellat aliquid maxime est! Expedita, optio?</p>
             <div class="label label-default">คณิตศาสตร์</div>
             <div class="label label-default">ม.ปลาย</div>
+            <br><br>
+            <a href="askboard.php">  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> กลับหน้าถาม-ตอบ</a>
           </div>
         </div>
         </div>
@@ -100,7 +103,7 @@
             </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row answer-row">
           <div class="col-md-10">
             <div class="panel panel-default text-left">
               <div class="panel-body">
@@ -121,6 +124,19 @@
                   <div class="col-md-6 text-right" style="line-height: 30px;">
                     The Kakest Tutor, <i>09/01/2016</i>
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-10">
+            <div class="panel panel-default text-left">
+              <div class="panel-body">
+                <textarea id="answer" cols="30" rows="8" class="form-control" placeholder="ตอบคำถาม..."></textarea>
+                <br>
+                <div class="form-group">
+                  <button class="btn btn-primary" id="answerSubmit">ตอบคำถาม</button>
                 </div>
               </div>
             </div>
@@ -173,7 +189,7 @@
           if(voted_2==false){
             $("#vote_count_2").html(vote_2);
             $("#add_2").addClass("disabled");
-            $("#minus_2").addClass("<disable></disable>d");
+            $("#minus_2").addClass("disabled");
           }
           voted_2 = true;
         })
@@ -187,6 +203,7 @@
           }
           voted_2 = true;
         })
+
       })
     </script>
     </body>

@@ -8,10 +8,10 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand page-scroll" href="#page-top">OWLJAI</a>
+      <a class="navbar-brand page-scroll" href="index.php"><img src="img/logoooooo-02.png" height="80" style="margin-top: -25px;" alt="OWLJAI"></a>
     </div>
 
-    <form class="navbar-form navbar-left" role="search">
+    <form class="navbar-form navbar-left" role="search" style="margin-top: 13px;">
       <div class="form-group">
         <div class="inner-addon left-addon">
           <i class="glyphicon glyphicon-search"></i>
@@ -23,16 +23,19 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li>
-          <a class="page-scroll" href="#">About</a>
+          <a class="page-scroll" href="index.php">หน้าแรก</a>
         </li>
         <li>
-          <a class="page-scroll" href="#">Services</a>
+          <a class="page-scroll" href="#">คอร์ส</a>
         </li>
         <li>
-          <a class="page-scroll" href="#">Portfolio</a>
+          <a class="page-scroll" href="askboard.php">ถาม-ตอบ</a>
         </li>
         <li>
-          <a class="page-scroll" href="#">Contact</a>
+          <a class="page-scroll" href="#">รายการสด</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#">ติดต่อเรา</a>
         </li>
       </ul>
     </div>
