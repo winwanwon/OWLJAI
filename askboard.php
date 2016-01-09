@@ -55,7 +55,7 @@
           <div class="col-md-8">
             <ul class="list-group text-left question-list">
               <li class="list-group-item"><span class="badge">ม.ปลาย</span> <span class="badge">เคมี</span> <a href="#">Cras justo odio</a> <h6>นี่คือบรรทัดแรกของคำถาม</h6> </li>
-              <li class="list-group-item math"><span class="badge">ม.ต้น</span> <span class="badge">คณิตศาสตร์</span> <a href="#">ตอบคำถามหนูทีค่ะ</a> <h6>1+1=2 แล้ว 1+1 เท่ากับเท่าไหร่คะ</h6></li>
+              <li class="list-group-item math"><span class="badge">ม.ต้น</span> <span class="badge">คณิตศาสตร์</span> <a href="samplequestion.php">ตอบคำถามหนูทีค่ะ</a> <h6>1+1=2 แล้ว 1+1 เท่ากับเท่าไหร่คะ</h6></li>
               <li class="list-group-item"><span class="badge">ภาษาต่างประเทศ</span>  <a href="#">Morbi leo risus</a> <h6>นี่คือบรรทัดแรกของคำถาม</h6></li>
               <li class="list-group-item"><span class="badge">ม.ปลาย</span><span class="badge">ฟิสิกส์</span> <a href="#">Porta ac consectetur ac</a> <h6>นี่คือบรรทัดแรกของคำถาม</h6></li>
               <li class="list-group-item math"><span class="badge">ม.ปลาย</span> <span class="badge">คณิตศาสตร์</span> <a href="#">Cras justo odio</a> <h6>นี่คือบรรทัดแรกของคำถาม</h6></li>
@@ -265,7 +265,7 @@
           var title = $("#title").val();
           var description = $("#description").val();
           if(title&&description){
-            $(".question-list").append("<li class='list-group-item animated fadeInUp'><span class='badge'>ม.ปลาย</span> <span class='badge'>คณิตศาสตร์</span>  <a href'#'>" + title + "</a> <h6>" + description + "</h6></li>")
+            $(".question-list").append("<li class='math list-group-item animated fadeInUp'><span class='badge'>ม.ปลาย</span> <span class='badge'>คณิตศาสตร์</span>  <a href'#'>" + title + "</a> <h6>" + description + "</h6></li>")
             $("#title").val("");
             $("#description").val("");
             $("#askQuestion").modal('hide');
