@@ -81,7 +81,7 @@
     <section style="background-color:#fcdcbb;" id="about">
         <div class="container">
         <div class="row">
-             <h2>2.คำศัพท์พื้นฐาน</h2>
+             <h2>3.คำศัพท์เพื่อการสื่อสารในชีวิตประจำวัน</h2>
         </div>
             <div class="row">
                     <div class="col-lg-12 text-center ">
@@ -113,8 +113,8 @@
                     <div class="col-md-8">
                     <center><ul id="dashboard" class="list-group text-left question-list">
                       <li class="list-group-item"><span class="badge">30:00 นาที </span><a href="#"><h3 class="text-success">1. บทนำภาษาอังกฤษสำหรับเด็กตั้งใจเรียน</h3></a></li>
-                      <li class="list-group-item"><span class="badge">00:30 นาที </span><a href="#"><h3 class="text-danger">2. สอนคำสัพท์แบบง่ายๆภายใน 30 วินาที</h3></a></li>
-                      <li class="list-group-item"><span class="badge">29:34 นาที </span><a href="#"><h3>3. คำศัพท์เพื่อการสื่อสารในชีวิตประจำวัน </h3></a></li>
+                      <li class="list-group-item"><span class="badge">00:30 นาที </span><a href="#"><h3 class="text-success">2. สอนคำสัพท์แบบง่ายๆภายใน 30 วินาที</h3></a></li>
+                      <li class="list-group-item"><span class="badge">29:34 นาที </span><a href="#"><h3 class="text-danger">3. คำศัพท์เพื่อการสื่อสารในชีวิตประจำวัน </h3></a></li>
                       <li class="list-group-item"><span class="badge">31:01 นาที </span><a href="#"><h3>4. ไปทวนคำศัพท์แบบง่ายๆภายในสไตล์ของฮันนี่</h3></a></li>
                       <br>
 
