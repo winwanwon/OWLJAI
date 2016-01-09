@@ -182,13 +182,9 @@
               <img src="img/video_frame6.png" class="img-responsive" alt="">
               <div class="text-left vid-description vid-description-small">
                 <a href="course_sample.php"><h3>PAT3</h3></a>
-<<<<<<< HEAD
                 <p>อยากเข้าวิศวะไม่ยาก แค่รู้ตรงจุด!! พี่นุ๊ก ICT มหิดล และน้องจะรัก PAT3 ตลอดไป</p>
                 <h3>300THB</h3>
                 <button class="btn-buy btn btn-primary"><span class="glyphicon glyphicon-ok"></span> ซื้อ</button>
-=======
-                <p>อยากเข้าวิศวะไม่ยาก แค่รู้ตรงจุด!! พี่นัท ICT มหิดล และน้องจะรัก PAT3 ตลอดไป</p>
->>>>>>> 368e7daf789de846ac19152c5eb4052027fe4e43
               </div>
             </div>
 

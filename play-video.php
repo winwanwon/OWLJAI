@@ -87,7 +87,7 @@
                     <div class="col-lg-12 text-center ">
                          <div align="center" class="embed-responsive embed-responsive-16by9">
                             <video id="myVideo" controls class="embed-responsive-item">
-                            <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4" >
+                            <source src="img/VID_20160109_004030.mp4" type="video/mp4" >
                             </video>
                         </div>
                         <div class="panel panel-default text-left " style="height: 100px;" >
