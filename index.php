@@ -61,7 +61,12 @@
 
   <header>
     <a href="livestream.php">
+<<<<<<< HEAD
       <div class="slider" style="margin-top: 30px;">
+=======
+      <div class="slider">
+	   <img src="img/SS0.jpg"/>
+>>>>>>> 5a19b748b368a8f2d7587408b3909703d5c4595c
         <img src="img/SS.jpg"/>
         <img src="img/SS3.jpg"/>
       </div>

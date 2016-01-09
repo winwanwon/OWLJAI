@@ -181,7 +181,11 @@
             <div class="col-md-3 highSchoolCourse">
               <img src="img/video_frame6.png" class="img-responsive" alt="">
               <div class="text-left vid-description vid-description-small">
+<<<<<<< HEAD
                 <a href="course_sample.php"><h3>ตะลุยโจทย์ PAT3</h3></a>
+=======
+                <a href="course_sample.php"><h3>PAT3</h3></a>
+>>>>>>> 5a19b748b368a8f2d7587408b3909703d5c4595c
                 <p>อยากเข้าวิศวะไม่ยาก แค่รู้ตรงจุด!! พี่นุ๊ก ICT มหิดล และน้องจะรัก PAT3 ตลอดไป</p>
                 <h3>300THB</h3>
                 <button class="btn-buy btn btn-primary"><span class="glyphicon glyphicon-ok"></span> ซื้อ</button>

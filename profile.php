@@ -65,7 +65,15 @@
             <img src="images/Fxiwa.gif" class="img-responsive">
           </div>
         </div>
+        <br>
+        <div class="row">
+          <div class="col-md-12">
+              <a href="course_editor.php" class="btn btn-primary">เข้าระบบจัดการคอร์ส <i>เคลียร์มั้ย?</i></a>
+          </div>
+        </div>
       </section>
+
+
 
       <!-- jQuery -->
       <script src="js/jquery.js"></script>
