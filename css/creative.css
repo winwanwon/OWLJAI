@@ -58,7 +58,7 @@ p {
 }
 
 .bg-primary {
-    background-color: #f05f40;
+    background-color: #e5f1fd;
 }
 
 .bg-orange {
@@ -190,9 +190,9 @@ header {
     width: 100%;
     min-height: auto;
     text-align: center;
-    color: #fff;
+    color: #333;
     /* background-image: url(../img/header.jpg); */
-    background: #555;
+    background: #fff;
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
