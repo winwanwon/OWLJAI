@@ -61,7 +61,7 @@
 
   <header>
     <a href="livestream.php">
-      <div class="slider">
+      <div class="slider" style="margin-top: 30px;">
         <img src="img/SS.jpg"/>
         <img src="img/SS3.jpg"/>
       </div>
@@ -113,7 +113,7 @@
       <div class="row">
         <div class="col-sm-4 text-center">
           <div class="service-box">
-            <img src="img/home/001.jpg" class="img-responsive" style="padding:0 100px; " alt="">
+            <img src="img/home/111.png" class="img-responsive" style="margin:auto;" alt="">
             <h3>ลงคอร์สกับเรา</h3>
             <p class="text-muted">พร้อมรับสิทธิ์พิเศษมากมาย</p>
             <br>
@@ -122,7 +122,7 @@
         </div>
         <div class="col-sm-4 text-center">
           <div class="service-box">
-            <img src="img/home/002.jpg" class="img-responsive" style="padding:0 77px; " alt="">
+            <img src="img/home/222.png" class="img-responsive" style="margin:auto;" alt="">
             <h3>รายการสด</h3>
             <p class="text-muted">ดูรายการสดและถาม-ตอบคำถามแบบเรียลไทม์</p><br>
             <a href="livestream.php" class="btn btn-primary btn-lg">ดูรายการสด</a>
@@ -130,7 +130,7 @@
         </div>
         <div class="col-sm-4 text-center">
           <div class="service-box">
-            <img src="img/home/003.jpg" class="img-responsive" style="padding:0 118px; " alt="">
+            <img src="img/home/333.png" class="img-responsive" style="margin:auto;" alt="">
             <h3>ติดต่อเรา</h3>
             <p class="text-muted">ช่องทางการติดต่อ และข้อมูลของเรา</p><br>
             <a href="#" class="btn btn-primary btn-lg">ติดต่อเรา</a>

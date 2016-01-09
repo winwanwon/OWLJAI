@@ -9,22 +9,44 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Creative - Start Bootstrap Theme</title>
+    <title>OWLJAI</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 
-    <!-- Custom Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+      <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+      <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+      <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+      <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+      <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+      <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+      <link rel="manifest" href="favicon/manifest.json">
+      <meta name="msapplication-TileColor" content="#ffffff">
+      <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+      <meta name="theme-color" content="#ffffff">
 
-    <!-- Plugin CSS -->
-    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+      <!-- Bootstrap Core CSS -->
+      <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/creative.css" type="text/css">
-     <link rel="stylesheet" href="css/course.css" type="text/css">
+      <!-- Custom Fonts -->
+      <link href='https://fonts.googleapis.com/css?family=Kanit:400,300,500,600,200&subset=thai,latin' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+
+      <!-- Plugin CSS -->
+      <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+      <link rel="stylesheet" href="css/jquery.tiles.min.css" type="text/css">
+
+      <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/creative.css" type="text/css">
+       <link rel="stylesheet" href="css/course.css" type="text/css">
+     <link rel="stylesheet" href="css/main.css" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -35,7 +57,7 @@
 
 </head>
 <style type="text/css">
-    
+
 .image-cropper {
     width: 150px;
     height: 150px;
@@ -44,7 +66,7 @@
     border-radius: 50%;
 }
 
-img {
+.img-profile {
 
     display: inline;
     margin: 0 auto;
@@ -57,10 +79,10 @@ img {
 
    <?php include("nav-bar.php") ?>
 
-    <section class="bg-orange" id="about">
+    <section  style="background-color:#fcdcbb;" id="about">
         <div class="container">
         <div class="row header-content">
-            <h2 class="section-heading  " style="color: white">We've got what you need!</h2><br>
+            <h2 class="section-heading">โปรไฟล์ติวเตอร์</h2><br>
         </div>
             <div class="row">
                 <div class="col-lg-8 text-center ">
@@ -72,14 +94,13 @@ img {
                 </div>
                 <div class="col-lg-4 ">
                     <center><div class="image-cropper">
-                    <img class="wow bounceIn" data-wow-delay="0.1s" src="http://www.electricvelocity.com.au/Upload/Blogs/smart-e-bike-side_2.jpg" class="rounded" />
+                    <img class="img-profile wow bounceIn" data-wow-delay="0.1s" src="http://www.electricvelocity.com.au/Upload/Blogs/smart-e-bike-side_2.jpg" class="rounded" />
                     </div></center>
                         <div class="row" style="margin-top: 10px;">
                                <hr class="light">
-                    <p class="text-faded">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p> 
-                        </div>
-                    
-                        
+                    <p>จบการศึกษาจากจุฬาลงกรณ์มหาวิทยาลัย</div>
+
+
 
                 </div>
 
@@ -87,321 +108,52 @@ img {
             <!-- tutor's course -->
             <div class="container" style="margin-top: 2%; padding-left:4px">
 
-                <ul style="margin-left: 0px;" class="discover-courses-list one-line">
-                    <li data-courseid="572338" class="course-box small ">
-                        <div class="add-to-wishlist btn btn-sm ud-wishlist" href="javascript:void(0)" data-course-id="572338" data-is-wishlisted="">
-                        <span class="ajax-loader-stick wishlist-loader none"></span>
-                        <i class="icon-heart wish-icon"></i>
-                            <div class="tooltip left">
-                                <div class="tooltip-arrow"></div>
-                                <div class="tooltip-inner in-wishlist none">Wishlisted</div>
-                                <div class="tooltip-inner not-in-wishlist">Wishlist</div>
-                            </div>
-                        </div>
-                            <a href="https://www.udemy.com/make-5-android-apps-in-1-hour-no-coding/?dtcode=7bzCsOF4jAzQ" class="mask">
-                        <span>
-                            <span class="lec-info fxdc">
-                                <span class="row-one">16 lectures <!--e.g. 5 lectures--></span>
-                                <span class="row-two">1.5 hours video <!--e.g. 3.5 hours video--></span>
-                            </span>
-                            <span class="course-thumb pos-r dib">
-                                <img src="https://udemy-images.udemy.com/course/240x135/572338_99b7_2.jpg" alt="Make 5 Android Apps in 1 Hour No Coding  With App Inventor 2">
-                                <span class="avatars-list">
-                                            <span class="avatar">
-                                                <img src="https://udemy-images.udemy.com/user/50x50/1582290_51fb_3.jpg" alt="Robert Pugh">
-                                            </span>
+              <div class="row">
+                <div class="col-md-3 preHighSchoolCourse">
+                  <img src="img/video_frame1.png" class="img-responsive" alt="">
+                  <div class="text-left vid-description vid-description-small">
+                    <a href="course_sample.php"><h3>คณิตศาสตร์ ม.1</h3></a>
+                    <p>เสริมสร้างการคิด และการวิเคราะห์กับวิชาคณิตศาสตร์ ม.1 โดยพี่จิ๊บ มาสนุกกันนะคะ</p>
+                    <h3>300THB</h3>
+                    <button class="btn-buy btn btn-primary"><span class="glyphicon glyphicon-ok"></span> ซื้อ</button>
+                  </div>
+                </div>
+                <div class="col-md-3 preHighSchoolCourse">
+                  <img src="img/video_frame2.png" class="img-responsive" alt="">
+                  <div class="text-left vid-description vid-description-small">
+                    <a href="course_sample.php"><h3>วิทยาศาสตร์ ม.2</h3></a>
+                    <p>อยากรักในวิทยาศาสตร์ต้องมาเรียนกับผมพี่อู๋แล้วน้องๆจะสตรอง!!</p>
+                    <h3 style="opacity:0.9;">ซื้อแล้ว</h3>
+                    <a href="play-video.php" class="btn btn-primary"><span class="glyphicon glyphicon-eye-open"></span> ดูคอร์ส</a>
+                  </div>
+                </div>
 
+                <div class="col-md-3 preHighSchoolCourse">
+                  <img src="img/video_frame3.png" class="img-responsive" alt="">
+                  <div class="text-left vid-description vid-description-small">
+                    <a href="course_sample.php"><h3>ภาษาไทยพื้นฐาน</h3></a>
+                    <p>โฉมใหม่กับการเรียนภาษาไทย ไม่ง่วง ไม่น่าเบื่อ ไม่ต้องเกลียดวิชานี้อีกต่อไป โดยภาษาไทยพื้นฐาน พี่นก</p>
+                    <h3>300THB</h3>
+                    <button class="btn-buy btn btn-primary"><span class="glyphicon glyphicon-ok"></span> ซื้อ</button>
+                  </div>
+                </div>
 
-                                </span>
-                            </span>
-                        </span>
-
-                        <span class="fx ml10-xs">
-                            <span class="title ellipsis-2lines">
-                            Make 5 Android Apps in 1 Hour No Coding  With App Inventor 2
-                            </span>
-                            <span class="dib inst-name ellipsis-2lines">
-                                        Robert Pugh, Mobile App Creator, Programmer, and Instructor
-
-
-                            </span>
-
-                            <span class="reviews-row db p5-10 fxw">
-                                <span class="review-count">
-                                    <span class="s-rating smaller static maroon ">
-                                        <span style="width: 91.688%"></span>
-                                    </span>
-                                    <span>
-                                        (77)                    </span>
-                                </span>
-                            </span>
-                            <span class="fxac mh36 mh0-xs mt5-xs">
-                                <span class="price skin-color no-promotion-price">
-                                    $10
-                                 </span>
-                            </span>
-                        </span>
-                            </a>
-                    </li>
-                    <li data-courseid="573716" class="course-box small promotion">
-                        <div class="add-to-wishlist btn btn-sm ud-wishlist" href="javascript:void(0)" data-course-id="573716" data-is-wishlisted="">
-                                    <span class="ajax-loader-stick wishlist-loader none"></span>
-                                    <i class="icon-heart wish-icon"></i>
-                                    <div class="tooltip left">
-                                        <div class="tooltip-arrow"></div>
-                                        <div class="tooltip-inner in-wishlist none">Wishlisted</div>
-                                        <div class="tooltip-inner not-in-wishlist">Wishlist</div>
-                                    </div>
-                                </div>
-                                    <a href="https://www.udemy.com/learn-php-programming-for-absolute-beginners/?dtcode=SAYxjOo4jAzQ" class="mask">
-                            <span>
-                                <span class="lec-info fxdc">
-                                    <span class="row-one">20 lectures <!--e.g. 5 lectures--></span>
-                                    <span class="row-two">2 hours video <!--e.g. 3.5 hours video--></span>
-                                </span>
-                                <span class="course-thumb pos-r dib">
-                                    <img src="https://udemy-images.udemy.com/course/240x135/573716_d21e.jpg" alt="Learn PHP Programming for Absolute Beginners">
-                                    <span class="avatars-list">
-                                                <span class="avatar">
-                                                    <img src="https://udemy-images.udemy.com/user/50x50/93556_173f_9.jpg" alt="EDUmobile Academy">
-                                                </span>
-
-
-                                    </span>
-                                </span>
-                            </span>
-
-                            <span class="fx ml10-xs">
-                                <span class="title ellipsis-2lines">
-                                Learn PHP Programming for Absolute Beginners
-                                </span>
-                                <span class="dib inst-name ellipsis-2lines">
-                                            EDUmobile Academy, High Quality Mobile Training
-
-
-                                </span>
-
-                                <span class="reviews-row db p5-10 fxw">
-                                    <span class="review-count">
-                                        <span class="s-rating smaller static maroon ">
-                                            <span style="width: 89%"></span>
-                                        </span>
-                                        <span>
-                                            (40)                    </span>
-                                    </span>
-                                </span>
-                                <span class="fxac mh36 mh0-xs mt5-xs">
-                                        <span class="promotion-badge">
-                                        $10
-                                    </span>
-                                    <span class="price skin-color ">
-                                        $99
-                                     </span>
-                                </span>
-                            </span>
-                        </a>
-                    </li>
-                    <li data-courseid="577900" class="course-box small promotion">
-                        <div class="add-to-wishlist btn btn-sm ud-wishlist" href="javascript:void(0)" data-course-id="577900" data-is-wishlisted="">
-                                <span class="ajax-loader-stick wishlist-loader none"></span>
-                                <i class="icon-heart wish-icon"></i>
-                                <div class="tooltip left">
-                                    <div class="tooltip-arrow"></div>
-                                    <div class="tooltip-inner in-wishlist none">Wishlisted</div>
-                                    <div class="tooltip-inner not-in-wishlist">Wishlist</div>
-                                </div>
-                            </div>
-                                <a href="https://www.udemy.com/learn-c-plus-plus-in-less-than-4-hours-for-beginners/?dtcode=zRQsIy54jAzQ" class="mask">
-                        <span>
-                            <span class="lec-info fxdc">
-                                <span class="row-one">15 lectures <!--e.g. 5 lectures--></span>
-                                <span class="row-two">1.5 hours video <!--e.g. 3.5 hours video--></span>
-                            </span>
-                            <span class="course-thumb pos-r dib">
-                                <img src="https://udemy-images.udemy.com/course/240x135/577900_bf72.jpg" alt="Learn C++ in Less than 4 Hours - for Beginners ">
-                                <span class="avatars-list">
-                                            <span class="avatar">
-                                                <img src="https://udemy-images.udemy.com/user/50x50/93556_173f_9.jpg" alt="EDUmobile Academy">
-                                            </span>
-
-
-                                </span>
-                            </span>
-                        </span>
-
-                        <span class="fx ml10-xs">
-                            <span class="title ellipsis-2lines">
-                            Learn C++ in Less than 4 Hours - for Beginners 
-                            </span>
-                            <span class="dib inst-name ellipsis-2lines">
-                                        EDUmobile Academy, High Quality Mobile Training
-
-
-                            </span>
-
-                            <span class="reviews-row db p5-10 fxw">
-                                <span class="review-count">
-                                    <span class="s-rating smaller static maroon ">
-                                        <span style="width: 88.888%"></span>
-                                    </span>
-                                    <span>
-                                        (18)                    </span>
-                                </span>
-                            </span>
-                            <span class="fxac mh36 mh0-xs mt5-xs">
-                                    <span class="promotion-badge">
-                                    $10
-                                </span>
-                                <span class="price skin-color ">
-                                    $99
-                                 </span>
-                            </span>
-                        </span>
-                        </a>
-                    </li>
-                    <li data-courseid="641728" class="course-box small promotion">
-                            <div class="add-to-wishlist btn btn-sm ud-wishlist" href="javascript:void(0)" data-course-id="641728" data-is-wishlisted="">
-                                        <span class="ajax-loader-stick wishlist-loader none"></span>
-                                        <i class="icon-heart wish-icon"></i>
-                                        <div class="tooltip left">
-                                            <div class="tooltip-arrow"></div>
-                                            <div class="tooltip-inner in-wishlist none">Wishlisted</div>
-                                            <div class="tooltip-inner not-in-wishlist">Wishlist</div>
-                                        </div>
-                                    </div>
-                                        <a href="https://www.udemy.com/sql-for-databases-beginners-quick-introduction/?dtcode=H0qBgNU4jAzQ" class="mask">
-                                <span>
-                                    <span class="lec-info fxdc">
-                                        <span class="row-one">24 lectures <!--e.g. 5 lectures--></span>
-                                        <span class="row-two">2.5 hours video <!--e.g. 3.5 hours video--></span>
-                                    </span>
-                                    <span class="course-thumb pos-r dib">
-                                        <img src="https://udemy-images.udemy.com/course/240x135/641728_8f1b_2.jpg" alt="SQL For  Databases : A Beginner's Quick Introduction">
-                                        <span class="avatars-list">
-                                                    <span class="avatar">
-                                                        <img src="https://udemy-images.udemy.com/user/50x50/16262298_0eed_8.jpg" alt="Bluelime Learning Solutions">
-                                                    </span>
-
-
-                                        </span>
-                                    </span>
-                                </span>
-
-                                <span class="fx ml10-xs">
-                                    <span class="title ellipsis-2lines">
-                                    SQL For  Databases : A Beginner's Quick Introduction
-                                    </span>
-                                    <span class="dib inst-name ellipsis-2lines">
-                                                Bluelime Learning Solutions, Learning made simple
-
-
-                                    </span>
-
-                                    <span class="reviews-row db p5-10 fxw">
-                                        <span class="review-count">
-                                            <span class="s-rating smaller static maroon ">
-                                                <span style="width: 100%"></span>
-                                            </span>
-                                            <span>
-                                                (7)                    </span>
-                                        </span>
-                                    </span>
-                                    <span class="fxac mh36 mh0-xs mt5-xs">
-                                            <span class="promotion-badge">
-                                            $10
-                                        </span>
-                                        <span class="price skin-color ">
-                                            $67
-                                         </span>
-                                    </span>
-                                </span>
-                            </a>
-                    </li>
-                    <li data-courseid="648456" class="course-box small promotion">
-                        <div class="add-to-wishlist btn btn-sm ud-wishlist" href="javascript:void(0)" data-course-id="648456" data-is-wishlisted="">
-                                        <span class="ajax-loader-stick wishlist-loader none"></span>
-                                        <i class="icon-heart wish-icon"></i>
-                                        <div class="tooltip left">
-                                            <div class="tooltip-arrow"></div>
-                                            <div class="tooltip-inner in-wishlist none">Wishlisted</div>
-                                            <div class="tooltip-inner not-in-wishlist">Wishlist</div>
-                                        </div>
-                                    </div>
-                                        <a href="https://www.udemy.com/learn-angular-js-for-beginners/?dtcode=ldnixEH4jAzQ" class="mask">
-                                <span>
-                                    <span class="lec-info fxdc">
-                                        <span class="row-one">12 lectures <!--e.g. 5 lectures--></span>
-                                        <span class="row-two">1 hour video <!--e.g. 3.5 hours video--></span>
-                                    </span>
-                                    <span class="course-thumb pos-r dib">
-                                        <img src="https://udemy-images.udemy.com/course/240x135/648456_c8f0.jpg" alt="Learn Angular JS for Beginners">
-                                        <span class="avatars-list">
-                                                    <span class="avatar">
-                                                        <img src="https://udemy-images.udemy.com/user/50x50/93556_173f_9.jpg" alt="EDUmobile Academy">
-                                                    </span>
-
-
-                                        </span>
-                                    </span>
-                                </span>
-
-                                <span class="fx ml10-xs">
-                                    <span class="title ellipsis-2lines">
-                                    Learn Angular JS for Beginners
-                                    </span>
-                                    <span class="dib inst-name ellipsis-2lines">
-                                                EDUmobile Academy, High Quality Mobile Training
-
-
-                                    </span>
-
-                                    <span class="reviews-row db p5-10 fxw">
-                                        <span class="review-count">
-                                            <span class="s-rating smaller static maroon ">
-                                                <span style="width: 88.75%"></span>
-                                            </span>
-                                            <span>
-                                                (32)                    </span>
-                                        </span>
-                                    </span>
-                                    <span class="fxac mh36 mh0-xs mt5-xs">
-                                            <span class="promotion-badge">
-                                            $10
-                                        </span>
-                                        <span class="price skin-color ">
-                                            $99
-                                         </span>
-                                    </span>
-                                </span>
-                            </a>
-                    </li>
-
-                </ul>
-            </div>
+                <div class="col-md-3 highSchoolCourse">
+                  <img src="img/video_frame4.png" class="img-responsive" alt="">
+                  <div class="text-left vid-description vid-description-small">
+                    <a href="course_sample.php"><h3>คณิตศาสตร์ ม.ปลาย</h3></a>
+                    <p>เรียนสนุกลุกนั่งสบายสไตล์พี่โจ วิศวะเครื่องกลจากจุฬาลงกรณ์มหาวิทยาลัย</p>
+                    <h3>300THB</h3>
+                    <button class="btn-buy btn btn-primary"><span class="glyphicon glyphicon-ok"></span> ซื้อ</button>
+                  </div>
+                </div>
+              </div>
         </div>
     </section>
 
 
 
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Let's Get In Touch!</h2>
-                    <hr class="primary">
-                    <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
-                </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center">
-                    <i class="fa fa-phone fa-3x wow bounceIn"></i>
-                    <p>123-456-6789</p>
-                </div>
-                <div class="col-lg-4 text-center">
-                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a></p>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php include "footer.php" ?>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
