@@ -104,20 +104,24 @@
             <i class="fa fa-4x fa-diamond wow bounceIn text-primary"></i>
             <h3>Sturdy Templates</h3>
             <p class="text-muted">Our templates are updated regularly so they don't break.</p>
+            <br>
+            <div class="btn btn-primary btn-lg">join us</div>
           </div>
         </div>
         <div class="col-md-4 text-center">
           <div class="service-box">
             <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s"></i>
             <h3>Ready to Ship</h3>
-            <p class="text-muted">You can use this theme as is, or you can make changes!</p>
+            <p class="text-muted">You can use this theme as is, or you can make changes!</p><br>
+            <div class="btn btn-primary btn-lg">join us</div>
           </div>
         </div>
         <div class="col-md-4 text-center">
           <div class="service-box">
             <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s"></i>
             <h3>Up to Date</h3>
-            <p class="text-muted">We update dependencies to keep things fresh.</p>
+            <p class="text-muted">We update dependencies to keep things fresh.</p><br>
+            <div class="btn btn-primary btn-lg">join us</div>
           </div>
         </div>
       </div>
