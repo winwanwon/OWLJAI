@@ -76,16 +76,4 @@
       </div>
     </div>
   </div>
-</div>\
-
-<script>
-$(document).ready( function(){
-  $("#login").click( function(){
-    if($("#password").val()=="teacher"){
-      window.location.assign("teacher.php")
-    } else {
-      window.location.assign("student.php")
-    }
-  })
-})
-</script>
+</div>
