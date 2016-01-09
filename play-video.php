@@ -178,7 +178,8 @@
   <input type="radio" name="gender" value="male"> hasn't he<br>
   <input type="radio" name="gender" value="female"> has he<br>
   <input type="radio" name="gender" value="other"> isn't
-
+       <br> 
+       <button type="button" class="btn btn-default" data-dismiss="modal" id="idd2">ส่งคำตอบ</button>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -201,6 +202,12 @@ $(document).ready(function(){
     function myHandler(e) {
       $("#myModal").modal();
     }
+</script>
+<script>
+  $( "#idd2" ).click(function() {
+  alert( "คำตอบถูกต้องค่ะ" );
+  $("#myModal").modal();
+});
 </script>
 
 
