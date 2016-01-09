@@ -50,3 +50,7 @@
 /* add padding  */
 .left-addon input  { padding-left:  30px; }
 .right-addon input { padding-right: 30px; }
+
+.label-as-badge {
+    border-radius: 1em;
+}
