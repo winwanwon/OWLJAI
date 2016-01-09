@@ -81,7 +81,7 @@
     <section style="background-color:#fcdcbb;" id="about">
         <div class="container">
         <div class="row">
-             <h2>2.คำศัพท์พื้นฐาน</h2>
+             <h2>วิทยาศาสตร์ ม.2</h2>
         </div>
             <div class="row">
                     <div class="col-lg-12 text-center ">

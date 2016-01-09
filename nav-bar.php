@@ -68,11 +68,11 @@
                 <input name="remember" type="checkbox" value="Remember Me"> จำไว้ในระบบ
               </label>
             </div>
-            <input class="btn btn-lg btn-success btn-block" id="login" type="submit" value="Login">
+            <a href="profile.php" class="btn btn-lg btn-success btn-block" id="login">เข้าสู่ระบบ</a>
           </fieldset>
         </form>
         <center><h3>หรือ</h3></center>
-        <input class="btn btn-lg btn-facebook btn-block" type="submit" value="Login ผ่าน facebook">
+        <input class="btn btn-lg btn-facebook btn-block" type="submit" value="เข้าสู่ระบบผ่าน facebook">
       </div>
     </div>
   </div>
