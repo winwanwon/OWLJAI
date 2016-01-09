@@ -133,6 +133,8 @@
               <div class="text-left vid-description vid-description-small">
                 <a href="course_sample.php"><h3>คณิตศาสตร์ ม.1</h3></a>
                 <p>เสริมสร้างการคิด และการวิเคราะห์กับวิชาคณิตศาสตร์ ม.1 โดยพี่จิ๊บ มาสนุกกันนะคะ</p>
+                <h3>300THB</h3>
+                <button class="btn-buy btn btn-primary"><span class="glyphicon glyphicon-ok"></span> ซื้อ</button>
               </div>
             </div>
             <div class="col-md-3 preHighSchoolCourse">
@@ -140,6 +142,8 @@
               <div class="text-left vid-description vid-description-small">
                 <a href="course_sample.php"><h3>วิทยาศาสตร์ ม.2</h3></a>
                 <p>อยากรักในวิทยาศาสตร์ต้องมาเรียนกับผมพี่อู๋แล้วน้องๆจะสตรอง!!</p>
+                <h3 style="opacity:0.9;">ซื้อแล้ว</h3>
+                <a href="play-video.php" class="btn btn-primary"><span class="glyphicon glyphicon-eye-open"></span> ดูคอร์ส</a>
               </div>
             </div>
 
@@ -148,6 +152,8 @@
               <div class="text-left vid-description vid-description-small">
                 <a href="course_sample.php"><h3>ภาษาไทยพื้นฐาน</h3></a>
                 <p>โฉมใหม่กับการเรียนภาษาไทย ไม่ง่วง ไม่น่าเบื่อ ไม่ต้องเกลียดวิชานี้อีกต่อไป โดยภาษาไทยพื้นฐาน พี่นก</p>
+                <h3>300THB</h3>
+                <button class="btn-buy btn btn-primary"><span class="glyphicon glyphicon-ok"></span> ซื้อ</button>
               </div>
             </div>
 
@@ -156,6 +162,8 @@
               <div class="text-left vid-description vid-description-small">
                 <a href="course_sample.php"><h3>คณิตศาสตร์ ม.ปลาย</h3></a>
                 <p>เรียนสนุกลุกนั่งสบายสไตล์พี่โจ วิศวะเครื่องกลจากจุฬาลงกรณ์มหาวิทยาลัย</p>
+                <h3>300THB</h3>
+                <button class="btn-buy btn btn-primary"><span class="glyphicon glyphicon-ok"></span> ซื้อ</button>
               </div>
             </div>
           </div>
@@ -166,13 +174,21 @@
               <div class="text-left vid-description vid-description-small">
                 <a href="course_sample.php"><h3>ฟิสิกส์เข้ามหาวิทยาลัย</h3></a>
                 <p>อยากติดจุฬารึเปล่า มาเรียนกับพี่ พี่มีเทคนิคดีๆแชร์เพียบ!! พี่พอล วิศวะจุฬาลงกรณ์มหาวิทยาลัย ดีกรี 4.00!!</p>
+                <h3><5></5>00THB</h3>
+                <button class="btn-buy btn btn-primary"><span class="glyphicon glyphicon-ok"></span> ซื้อ</button>
               </div>
             </div>
             <div class="col-md-3 highSchoolCourse">
               <img src="img/video_frame6.png" class="img-responsive" alt="">
               <div class="text-left vid-description vid-description-small">
                 <a href="course_sample.php"><h3>PAT3</h3></a>
+<<<<<<< HEAD
+                <p>อยากเข้าวิศวะไม่ยาก แค่รู้ตรงจุด!! พี่นุ๊ก ICT มหิดล และน้องจะรัก PAT3 ตลอดไป</p>
+                <h3>300THB</h3>
+                <button class="btn-buy btn btn-primary"><span class="glyphicon glyphicon-ok"></span> ซื้อ</button>
+=======
                 <p>อยากเข้าวิศวะไม่ยาก แค่รู้ตรงจุด!! พี่นัท ICT มหิดล และน้องจะรัก PAT3 ตลอดไป</p>
+>>>>>>> 368e7daf789de846ac19152c5eb4052027fe4e43
               </div>
             </div>
 
@@ -181,6 +197,8 @@
               <div class="text-left vid-description vid-description-small">
                 <a href="course_sample.php"><h3>ปริมาณสารสัมพันธ์ Part I</h3></a>
                 <p>ปริมาณสารสัมพันธ์ part1 เรื่องง่ายๆที่ใครๆก็ไม่เข้าใจ พี่แนน สนุกแน่นอน</p>
+                <h3>500THB</h3>
+                <button class="btn-buy btn btn-primary"><span class="glyphicon glyphicon-ok"></span> ซื้อ</button>
               </div>
             </div>
 
@@ -189,6 +207,8 @@
               <div class="text-left vid-description vid-description-small">
                 <a href="course_sample.php"><h3>ปริมาณสารสัมพันธ์ Part II</h3></a>
                 <p>ต่อเนื่องกับ ปริมาณสารสัมพันธ์ part II ความสนุกยังไม่จบ มาลุยกันต่อเลย</p>
+                <h3>250THB</h3>
+                <button class="btn-buy btn btn-primary"><span class="glyphicon glyphicon-ok"></span> ซื้อ</button>
               </div>
             </div>
           </div>
@@ -244,6 +264,11 @@
           $(".appendrow:last").append(appender);
           goToByScroll("#show_more");
         });
+
+        $(".btn-buy").click( function() {
+          $(this).html("");
+          $(this).append("<a href='play-video.php' style='color:#FFF !important; text-decoration:none !important;'><span class='glyphicon glyphicon-eye-open'></span> ดูคอร์ส</a>");
+        })
 
       })
       </script>

@@ -114,27 +114,27 @@
       <div class="row">
         <div class="col-sm-4 text-center">
           <div class="service-box">
-            <i class="fa fa-4x fa-diamond wow bounceIn text-primary"></i>
+            <img src="img/home/001.jpg" class="img-responsive" style="padding:0 100px; " alt="">
             <h3>ลงคอร์สกับเรา</h3>
             <p class="text-muted">พร้อมรับสิทธิ์พิเศษมากมาย</p>
             <br>
-            <div class="btn btn-primary btn-lg">รายละเอียดเพิ่มเติม</div>
+            <a href="#" class="btn btn-primary btn-lg">รายละเอียดเพิ่มเติม</a>
           </div>
         </div>
         <div class="col-sm-4 text-center">
           <div class="service-box">
-            <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s"></i>
+            <img src="img/home/002.jpg" class="img-responsive" style="padding:0 77px; " alt="">
             <h3>รายการสด</h3>
             <p class="text-muted">ดูรายการสดและถาม-ตอบคำถามแบบเรียลไทม์</p><br>
-            <div class="btn btn-primary btn-lg">ดูรายการสด</div>
+            <a href="livestream.php" class="btn btn-primary btn-lg">ดูรายการสด</a>
           </div>
         </div>
         <div class="col-sm-4 text-center">
           <div class="service-box">
-            <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s"></i>
+            <img src="img/home/003.jpg" class="img-responsive" style="padding:0 118px; " alt="">
             <h3>ติดต่อเรา</h3>
             <p class="text-muted">ช่องทางการติดต่อ และข้อมูลของเรา</p><br>
-            <div class="btn btn-primary btn-lg">ติดต่อเรา</div>
+            <a href="#" class="btn btn-primary btn-lg">ติดต่อเรา</a>
           </div>
         </div>
       </div>
@@ -222,31 +222,15 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
+            <a href="#">
             <img src="img/home/21.png" class="img-responsive" alt="">
+            </a>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="contact" class="bg-dark">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2 text-center">
-            <h2 class="section-heading">Let's Get In Touch!</h2>
-            <hr class="primary">
-            <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
-          </div>
-          <div class="col-lg-4 col-lg-offset-2 text-center">
-            <i class="fa fa-phone fa-3x wow bounceIn"></i>
-            <p>123-456-6789</p>
-          </div>
-          <div class="col-lg-4 text-center">
-            <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-            <p><a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a></p>
-          </div>
-        </div>
-      </div>
-    </section>
+    <?php include("footer.php"); ?>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
