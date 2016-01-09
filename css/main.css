@@ -6,3 +6,17 @@
   box-shadow: 10px 10px 24px -10px rgba(0,0,0,0.75);
   padding: 30px;
 }
+
+.vid-description {
+  background: #EEE;
+  color:#333;
+  padding: 30px;
+}
+
+.vid-description-small {
+  padding: 15px;
+}
+
+.vid-description-small > p {
+  font-size: 12px;
+}
